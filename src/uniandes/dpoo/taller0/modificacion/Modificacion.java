@@ -10,7 +10,7 @@ public class Modificacion {
     public static void main(String args[]) throws FileNotFoundException, IOException
     {
         System.out.println("Hola, mundo!");
-        CalculadoraEstadisticas calc = LoaderOlimpicos.cargarArchivo("C:/Users/Usuario/Documents/UNIVERSIDAD/20222/dpoo/Taller0_Olimpicos/data/atletas.csv");
+        CalculadoraEstadisticas calc = LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
         System.out.println(calc.paisConMasMedallistas());
     }
 }
